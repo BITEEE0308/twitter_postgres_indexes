@@ -6,6 +6,6 @@ sql.normalized_batch/05.sql pass
 /home/jzhao5793/.local/lib/python3.6/site-packages/paramiko/transport.py:32: CryptographyDeprecationWarning: Python 3.6 is no longer supported by the Python core team. Therefore, support for it is deprecated in cryptography. The next release of cryptography (40.0) will be the last to support Python 3.6.
   from cryptography.hazmat.backends import default_backend
 
-real	0m5.273s
-user	0m0.577s
-sys	0m0.388s
+real	0m1.588s
+user	0m0.427s
+sys	0m0.385s
