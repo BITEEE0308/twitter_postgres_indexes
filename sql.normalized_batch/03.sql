@@ -1,6 +1,3 @@
-/*
- * Calculates the languages that use the hashtag #coronavirus
- */
 SELECT
     lang,
     count(DISTINCT id_tweets) as count

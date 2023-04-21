@@ -1,3 +1,4 @@
+-- Q1-3 & 5
 CREATE INDEX gin_jsonb_tags ON tweets_jsonb USING gin((data->'entities'->'hashtags'));
 CREATE INDEX gin_jsonb_ext_tags ON tweets_jsonb USING gin((data->'extended_tweet'->'entities'->'hashtags'));
 
